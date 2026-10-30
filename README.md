@@ -1,14 +1,14 @@
 # Waste Classification with a Convolutional Neural Network (CNN)
 
 Deep Learning practical assignment: building and evaluating a CNN for image classification.
-**Author(s):** [Your name / group members]
+**Author(s):** Hellen Mbugua & Ivy Kadzo
 **Course:** Deep Learning | **Tools:** Python, Google Colab, TensorFlow/Keras
 
 ## Problem
 Classify a photo of a waste item into one of six categories: cardboard, glass, metal, paper, plastic or trash. Automatic recognition of waste material could support sorting at the source, for example in smart bins or on sorting lines.
 
 ## Dataset
-- Kaggle: *Garbage Classification* (uploaded by cchangcs). [Add the dataset URL and credit the original authors.]
+- Kaggle: *Garbage Classification* (uploaded by cchangcs). [.]
 - 2,527 images, 6 classes: cardboard 403, glass 501, metal 410, paper 594, plastic 482, trash 137.
 - Split (stratified): 1,768 train / 379 validation / 380 test.
 - Preprocessing: resized to 128 x 128, pixel values divided by 255.
@@ -38,9 +38,9 @@ On six new photos from the internet the model got 2 of 6 correct, often with ver
 
 ## Files
 - `waste_classification_cnn.ipynb`: the full Colab notebook (data preparation, model, training, evaluation, predictions) with outputs.
-- `waste_cnn.keras`: the trained model. [Include if you downloaded it.]
-- `slides/`: presentation slides. [Add if exported.]
-- `report.pdf`: short report. [Add when finished.]
+- `waste_cnn.keras`: the trained model.
+- `slides/`: presentation slides.
+- `report.pdf`: short report.
 
 ## How to run
 1. Open the notebook in Google Colab and set the runtime to a T4 GPU.
@@ -51,6 +51,4 @@ On six new photos from the internet the model got 2 of 6 correct, often with ver
 Small dataset, imbalanced classes (trash has only 137 images), and the training photos share one style (single item, plain background), so the model does not generalise well to differently styled photos.
 
 ## Acknowledgments
-- Dataset: [add the Kaggle dataset link and original authors].
-- Test photos from the internet: [add sources and photographers].
-- AI assistance: Claude (Anthropic) was used for step-by-step guidance on the code, the interpretation of results, and drafting text. The model was trained and evaluated by [your name / group] in Google Colab.
+- Dataset: https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification.
