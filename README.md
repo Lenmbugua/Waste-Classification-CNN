@@ -8,7 +8,7 @@ Deep Learning practical assignment: building and evaluating a CNN for image clas
 Classify a photo of a waste item into one of six categories: cardboard, glass, metal, paper, plastic or trash. Automatic recognition of waste material could support sorting at the source, for example in smart bins or on sorting lines.
 
 ## Dataset
-- Kaggle: *Garbage Classification* (uploaded by cchangcs). [.]
+- Kaggle: *Garbage Classification* (uploaded by cchangcs). [https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification.]
 - 2,527 images, 6 classes: cardboard 403, glass 501, metal 410, paper 594, plastic 482, trash 137.
 - Split (stratified): 1,768 train / 379 validation / 380 test.
 - Preprocessing: resized to 128 x 128, pixel values divided by 255.
